@@ -1,0 +1,44 @@
+# -*- mode: rec -*-
+
+Title: Sample Book
+Author: Platypus
+Location: Here
+
+%mandatory: Title
+%rec: Book
+%type: Location enum loaned home unknown
+%doc:
++ A book in my personal collection.
++ Second line for testing
+
+Title: GNU Emacs Manual
+Author: Richard M. Stallman
+Publisher: FSF
+Location: home
+
+Title: The Colour of Magic
+Author: Terry Pratchett
+Location: loaned
+
+%mandatory: Title
+%rec: Magazine
+%type: Location enum loaned home unknown
+%doc: Another book in my personal collection.
++ Second line after comment for testing
+
+Title: Mio Cid
+Author: Anonymous
+Location: home
+
+Title: chapters.gnu.org administration guide
+Author: Nacho Gonzalez
+Author: Jose E. Marchesi
+Location: unknown
+
+Title: Yeelong User Manual
+Location: home
+
+%mandatory: Something
+%rec: AnotherThing
+%type: Other int
+%doc: abc

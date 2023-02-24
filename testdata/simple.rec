@@ -1,0 +1,13 @@
+%rec: Book
+%mandatory: Title
+%type: Location enum loaned home unknown
+%doc: A book in my personal collection.
+
+Title: GNU Emacs Manual
+Author: Richard M. Stallman
+Publisher: FSF
+Location: home
+
+Title: The Colour of Magic
+Author: Terry Pratchett
+Location: loaned

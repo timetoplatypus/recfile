@@ -1,0 +1,12 @@
+# missing record type
+%mandatory: Title
+%type: Location enum loaned home unknown
+%doc: A book in my personal collection.
+
+Title: GNU Emacs Manual
+Author: Richard M. Stallman
+Publisher: FSF
+Location: this is
++ a wrapped line followed by
+# comment to ignore
++ another line
