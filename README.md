@@ -1,3 +1,5 @@
+This is a mirror of the [upstream repository](https://git.sr.ht/~timetoplatypus/recfile) and may be out of date
+
 # Recutils
 
 A Go library to access the human-editable, plain text databases called GNU recfiles
